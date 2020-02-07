@@ -359,6 +359,10 @@ button{
 		padding-top: 40px;
 	}
 
+	header{
+		z-index: 99;
+	}
+
 	.header-active{
 		display: flex;
 	}
@@ -387,16 +391,26 @@ button{
 	}
 
 	.swiper-container{
-	max-width: 80%;
-}
+		max-width: 230px;
+		margin-left: 0px;
+	}
+
 	.main-content{
 		margin-top: 196px;
 	}
+
 	.main-title{
 		font-size: 56px;
 	}
-	.series{
-		width: 70%;
-	}
 
+	.series{
+		width: 80%;
+	}
+}
+
+@media(max-width: 300px){
+	.swiper-container{
+		max-width: 190px;
+		margin-left: 0px;
+	}
 }
